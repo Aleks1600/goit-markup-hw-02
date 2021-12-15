@@ -1,5 +1,7 @@
 body {
   font-family: "Roboto", sans-serif;
+  background-color: #fff;
+  color: #212121;
 }
 
 .list {
@@ -9,3 +11,22 @@ body {
 .link {
   text-decoration: none;
 }
+
+/*styles header*/
+.header-logo {
+  font-family: Raleway;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  color: #000000;
+}
+.header-logo > span {
+  color: #2196f3;
+}
+
+/*
+/* Лого Raleway color: #000000, синий - color: #2196F3 */
+/* первичный color: #212121, 
+вторичный color: #757575, 
+активная ссылка color: #2196F3*/ ;
